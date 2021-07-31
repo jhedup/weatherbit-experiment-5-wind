@@ -13,6 +13,7 @@ item = true
 basic.forever(function () {
     current_WindSpeed = weatherbit.windSpeed()
     current_WindDirection_List = weatherbit.windDirection()
+    current_WindSpeed = weatherbit.windSpeed()
     if (item) {
         basic.showString("Sp")
         basic.showNumber(Math.trunc(current_WindSpeed))
